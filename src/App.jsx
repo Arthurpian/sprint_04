@@ -1,6 +1,7 @@
 import {  } from 'react'
 import Nav from './componentes/Nav'
 import Home from './rotas/home'
+import Footer from './componentes/Footer'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
     <Nav />
     <Home />
+    <Footer />
     </>
   )
 }
