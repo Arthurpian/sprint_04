@@ -45,6 +45,7 @@ function Home() {
     if (!data?.length) return null;
     return (
         <>
+        <div className="container_home">
             <Swiper className="slide-show"
                 // install Swiper modules
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -118,7 +119,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-
+        </div>            
         </>
     )
 }
