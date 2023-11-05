@@ -28,7 +28,7 @@ function Home() {
     }, []);
 
     const fetchData = () => {
-        fetch('http://localhost:5173/src/json/json.json')
+        fetch('http://localhost:5174/src/json/json.json')
             .then((response) => response.json())
             .then(setData)
             .catch((error) => {
@@ -121,7 +121,7 @@ function Home() {
             </div>
         </div>            
         </>
-    )
+    );
 }
 
 export default Home
